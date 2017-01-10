@@ -1,18 +1,29 @@
 ## 项目开发目录：指的是你要开发的项目，将项目的源码放置到src文件夹里面
 
 ┠─dist ━━━━━━━━━━━━━┱─images
-(项目上线代码)      ┠─styles
-                    ┠─scripts
-                    ┖─index.html
-┠─src  ━━━━━━━━━━━━━┱─images
-(项目生产源码)      ┠─styles
-                    ┠─scripts
-                    ┖─index.html 
 
+(项目上线代码)        ┠─styles
+
+                    ┠─scripts
+
+                    ┖─index.html
+
+┠─src  ━━━━━━━━━━━━━┱─images
+
+(项目生产源码)        ┠─styles<br /> 
+
+                    ┠─scripts<br /> 
+
+                    ┖─index.html 
+                    
 ┠─node_modules(bower_components) (存储了项目所需要的包)
+
 ┠─gulpfile.js (控制工作流的js文件)
+
 ┠─package.json （记录项目的版本，名称，主文件，开发依赖，以及生产依赖）
+
 ┖─README.md (项目的说明和帮助文档)
+
 
 ## 实现功能：
 - 将src/scripts文件夹中的.less文件编译压缩合并生成dist/styles/app.css文件
