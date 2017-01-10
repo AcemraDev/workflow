@@ -28,7 +28,7 @@ let distPaths = {
   html: 'dist/'
 };
 
-// 创建less任务
+// 创建任务
 gulp.task('less',() => {
     return gulp.src(srcPaths.styles)
                .pipe(less())
@@ -59,9 +59,9 @@ gulp.task('default',['less','image','script','html'],() => {
     browserSync.init({
         server: distPaths.html
     });
-    // 监控一下源文件
-    gulp.watch(srcPaths.scripts, ['script']);
-    gulp.watch(srcPaths.styles, ['less']);
-    gulp.watch(srcPaths.images, ['image']);
+    // 监控源文件
+    gulp.watch(srcPaths.scripts, ['script'])
+    gulp.watch(srcPaths.styles, ['less'])
+    gulp.watch(srcPaths.images, ['image'])
     gulp.watch(srcPaths.html, ['html']);
 });
