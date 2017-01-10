@@ -1,0 +1,1 @@
+function substrack(n,e){return n-e}function add(n,e){return n+e}var h1=document.getElementsByTagName("h1")[0];h1.innerHTML="Js测试";
