@@ -29,6 +29,6 @@
 
 - 使用时需要安装npm，nodejs环境，下载workflow文件夹，将在src中创建项目源码文件
 
-- 在根目录打开命令行使用$ npm init初始化需要的node_modules包，再执行: $ gulp 
+- 在根目录打开命令行使用$ npm install初始化需要的node_modules包，再执行: $ gulp 
 
 - 项目会自动打开浏览器实现实时更新 
